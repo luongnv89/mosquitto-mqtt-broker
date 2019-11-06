@@ -2,7 +2,7 @@
 FROM alpine:latest
 
 # Install packages
-RUN apk --no-cache add mosquitto mosquitto-clients
+RUN apk --no-cache add mosquitto 
 
 # Expose MQTT port
 EXPOSE 1883
